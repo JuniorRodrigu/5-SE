@@ -1,0 +1,40 @@
+a {
+    
+color: inherit;
+
+
+} 
+
+button{
+
+background: none;
+border: 0;
+position: relative;
+font-weight: bold;
+transition:all 500ms ease-in-out;
+
+}
+button:after{
+content: '';
+transition: inherit;
+
+width: 35px;
+height: 35px;
+border-radius: 50%;
+background-color: rgb(223, 4, 70);
+
+position: absolute;
+top: -50%;
+left: -10%;
+
+opacity: 0;
+z-index: -1;
+
+}
+button:hover:after{
+    width: calc(100% + 20px);
+    border-radius: 20px;
+    opacity: 0.6;
+
+
+}
