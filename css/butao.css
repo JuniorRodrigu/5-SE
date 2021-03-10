@@ -1,11 +1,17 @@
-a {
+
+    body{
+        text-align: center;
+    }
+a { 
     
 color: inherit;
 
 
 } 
 
+
 button{
+    
 
 background: none;
 border: 0;
@@ -15,13 +21,14 @@ transition:all 500ms ease-in-out;
 
 }
 button:after{
+    
 content: '';
 transition: inherit;
 
 width: 35px;
 height: 35px;
 border-radius: 50%;
-background-color: rgb(223, 4, 70);
+background-color: rgb(223, 1, 2);
 
 position: absolute;
 top: -50%;

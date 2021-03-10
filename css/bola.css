@@ -1,0 +1,39 @@
+ body{
+margin: 0px;
+padding: 0px;
+
+ }
+ .bos{
+     display: flex;
+ }
+ 
+ .bos div{
+   
+
+width: 30px;
+height: 30px;
+margin: 12px  ;
+background: #181818;
+border-radius: 50%;
+display: grid ;
+animation: bola 2s ease infinite;
+
+}
+
+@keyframes bola{
+
+0% {transform: translateY(0);}
+50% {transform: translateY(-100PX);}
+100% {transform: translateY(0);}
+}
+.bos div:nth-child(1){
+    animation-delay: 0.4s;
+}
+.bos div:nth-child(2){
+        animation-delay: 0.8s;
+        
+}
+.bos div:nth-child(2){
+    animation-delay: 0.16s;
+}
+
