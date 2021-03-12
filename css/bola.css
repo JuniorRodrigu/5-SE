@@ -1,6 +1,8 @@
  body{
-margin: 0px;
-padding: 0px;
+margin: 0px auto;
+padding: 0px ;
+justify-items: center;
+align-items: center;
 
  }
  .bos{
@@ -33,7 +35,22 @@ animation: bola 2s ease infinite;
         animation-delay: 0.8s;
         
 }
-.bos div:nth-child(2){
+.bos div:nth-child(3){
     animation-delay: 0.16s;
+}
+.bos div:nth-child(4){
+    animation-delay: 0.32s;
+}
+.bos div:nth-child(5){
+    animation-delay: 0.64s;
+}
+.bos div:nth-child(6){
+    animation-delay: 1.2s;
+}
+.bos div:nth-child(7){
+    animation-delay: 2.4;
+}
+.bos div:nth-child(8){
+    animation-delay: 4.8s;
 }
 
